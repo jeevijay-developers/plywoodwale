@@ -5,7 +5,7 @@ import TourType from "@/components/common/dropdownSearch/TourType";
 import Image from "next/image";
 import { useEffect, useState, useRef } from "react";
 
-export default function Hero() {
+export default function Hero({ title }) {
   const [currentActiveDD, setCurrentActiveDD] = useState("");
   const [location, setLocation] = useState("");
   const [calender, setCalender] = useState("");
@@ -55,14 +55,11 @@ export default function Hero() {
             <div className="col-12">
               <div className="pageHeader__content">
                 <h1 className="pageHeader__title">
-                  WELCOME TO SHREE UMMED CLUB
+                  {title}
                 </h1>
 
                 <p className="pageHeader__text">
-                  Shree Ummed Club Kota established in year 1898 named after Sir
-                  Robert Crosthwaite the last agent to the Viceroy of the
-                  Rajputana. The club is among the first 18 clubs prior to
-                  ninteenth century.
+                  Discover a wide range of premium plywood, laminates, veneers, doors, furniture, and more. Our products are crafted for durability, style, and versatility—perfect for residential, commercial, and creative projects. Explore quality materials designed to meet every need in construction, interiors, and design.
                 </p>
 
                 {/* <div className="pageHeader__search">

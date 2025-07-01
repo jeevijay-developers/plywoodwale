@@ -12,10 +12,12 @@ import Gallery1 from "../Galleries/Gallery1";
 import DateCalender from "../DateCalender";
 import RoadMap2 from "../Roadmap2";
 import CommentBox from "../CommentBox";
+import { descriptions } from "@/data/PlywoodData/descriptionData";
 
-export default function SingleOne({ tour }) {
-  console.log(tour);
-
+export default function SingleOne({ productId }) {
+  const tour = descriptions.find((d) => d.productId === Number(productId));
+  // console.log("Description:", tour);
+  
   return (
     <>
       <section className="">

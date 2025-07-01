@@ -5,8 +5,9 @@ import React, { useState, useRef, useEffect } from "react";
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { products } from "@/data/PlywoodData/productData";
 
-export default function TourList5() {
+export default function TourList5({ categoryId }) {
   const [sortOption, setSortOption] = useState("");
   const [ddActives, setDdActives] = useState(false);
   const dropDownContainer = useRef();
@@ -38,8 +39,8 @@ export default function TourList5() {
     };
   }, []);
 
-  const handleFacilityClick = (index) => {
-    router.push(`/tour-single-1/${index}`);
+  const handleFacilityClick = (index, title) => {
+    router.push(`/${title}/${index}`);
   };
   return (
     <section className="layout-pt-lg layout-pb-xl">
@@ -335,64 +336,36 @@ export default function TourList5() {
         </div> */}
 
         <div className="row y-gap-30 pt-30">
-          {tourDataThree.map((elm, i) => (
-            <div
-            key={i}
-            className="col-lg-3 col-sm-6"
-            style={{ cursor: "pointer" }}
-            onClick={() => handleFacilityClick(i)}
-          >
-              <div className="tourCard -type-1 py-10 px-10 border-1 rounded-12  -hover-shadow">
-                <div className="tourCard__header">
-                  <div className="tourCard__image ratio ratio-28:20">
-                    <Image
-                      width={421}
-                      height={301}
-                      src={elm.imageSrc}
-                      alt="image"
-                      className="img-ratio rounded-12"
-                    />
+          {products
+            .filter((item) => item.categoryId === categoryId)
+            .flatMap((item) => item.prods)
+            .map((elm) => (
+              <div
+                key={elm.productId}
+                className="col-lg-3 col-sm-6"
+                style={{ cursor: "pointer" }}
+                onClick={() => handleFacilityClick(elm.productId, elm.title)}
+              >
+                <div className="tourCard -type-1 py-10 px-10 border-1 rounded-12  -hover-shadow">
+                  <div className="tourCard__header">
+                    <div className="tourCard__image ratio ratio-28:20">
+                      <Image
+                        width={421}
+                        height={301}
+                        src={elm.image}
+                        alt="image"
+                        className="img-ratio rounded-12"
+                      />
+                    </div>
                   </div>
-
-                  {/* <button className="tourCard__favorite">
-                    <i className="icon-heart"></i>
-                  </button> */}
-                </div>
-
-                <div className="tourCard__content px-10 pt-10">
-                  {/* <div className="tourCard__location d-flex items-center text-13 text-light-2">
-                    <i className="icon-pin d-flex text-16 text-light-2 mr-5"></i>
-                    {elm.location}
-                  </div> */}
-
-                  <h3 className="tourCard__title text-16 fw-500 mt-5">
-                    <span>{elm.title}</span>
-                  </h3>
-
-                  {/* <div className="tourCard__rating d-flex items-center text-13 mt-5">
-                    <div className="d-flex x-gap-5">
-                      <Stars star={elm.rating} />
-                    </div>
-
-                    <span className="text-dark-1 ml-10">
-                      {elm.rating} ({elm.ratingCount})
-                    </span>
-                  </div> */}
-                  {/* 
-                  <div className="d-flex justify-between items-center border-1-top text-13 text-dark-1 pt-10 mt-10">
-                    <div className="d-flex items-center">
-                      <i className="icon-clock text-16 mr-5"></i>
-                      {elm.duration}
-                    </div>
-
-                    <div>
-                      From <span className="text-16 fw-500">${elm.price}</span>
-                    </div>
-                  </div> */}
+                  <div className="tourCard__content px-10 pt-10">
+                    <h3 className="tourCard__title text-16 fw-500 mt-5">
+                      <span>{elm.title}</span>
+                    </h3>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
 
         {/* <div className="d-flex justify-center flex-column mt-60">

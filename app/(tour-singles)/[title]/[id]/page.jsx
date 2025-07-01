@@ -14,9 +14,9 @@ export const metadata = {
 };
 
 export default async function page({ params }) {
-  const id = await params.id;
-  const tour = facilities[id];
-  console.log(tour);
+  const {title, id} = params;
+  const productId = Number(id);
+  console.log("Params:", params);
 
   return (
     <>
@@ -24,7 +24,7 @@ export default async function page({ params }) {
         <Header1 />
         {/* <PageHeader /> */}
 
-        <SingleOne tour={tour} />
+        <SingleOne productId={productId} title={title} />
         {/* <TourSlider /> */}
         <FooterOne />
       </main>

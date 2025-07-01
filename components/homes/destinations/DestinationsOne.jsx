@@ -6,6 +6,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { categories } from "@/data/PlywoodData/categoryData";
 
 export default function DestinationsOne() {
   return (
@@ -14,7 +15,7 @@ export default function DestinationsOne() {
         <div className="row y-gap-10 justify-between items-end">
           <div className="col-auto">
             <h2 data-aos="fade-up" className="text-30 md:text-24">
-              Shree Ummed Club Party Room's Facilities
+              Our categories
             </h2>
           </div>
 
@@ -57,24 +58,24 @@ export default function DestinationsOne() {
                 },
               }}
             >
-              {destinations.map((elm, i) => (
+              {categories.map((elm, i) => (
                 <SwiperSlide key={i}>
                   <a
-                    href="#"
+                    href={`/productList/${elm.title}/${elm.categoryId}`}
                     className="featureImage -type-1 text-center -hover-image-scale"
                   >
                     <div className="featureImage__image mx-auto rounded-full -hover-image-scale__image">
                       <Image
                         width={260}
                         height={260}
-                        src={elm.imageSrc}
+                        src={elm.image || '/img/001.webp'}
                         alt="image"
                         className="size-130 object-cover rounded-full"
                       />
                     </div>
 
                     <h3 className="featureImage__title text-16 fw-500 mt-20">
-                      {elm.name}
+                      {elm.title}
                     </h3>
                     {/* <p className="featureImage__text text-14">
                       {elm.tourCount}+ Tours
