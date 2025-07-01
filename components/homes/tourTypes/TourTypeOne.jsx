@@ -64,6 +64,9 @@ export default function TourTypeOne() {
           font-weight: 700;
           margin-bottom: 8px;
         }
+          .card h3, .card h5, .card p {
+            color: #fff;
+                  }
         .card p {
           margin-bottom: 4px;
           font-size: 0.9rem;
@@ -159,8 +162,6 @@ export default function TourTypeOne() {
             </div>
           </div>
         </div>
-
-        
       </div>
     </section>
   );
