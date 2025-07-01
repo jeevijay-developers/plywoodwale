@@ -12,7 +12,7 @@ export default function TourTypeOne() {
     {
       title: "Laminates",
       imageSrc:
-        "https://images.pexels.com/photos/6032834/pexels-photo-6032834.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://plus.unsplash.com/premium_photo-1683134681760-531bbc8eddb8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnVybml0dXJlJTIwaW1hZ2VzfGVufDB8fDB8fHww",
       description: "Decorative & industrial laminates in multiple textures",
     },
     {
