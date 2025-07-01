@@ -31,7 +31,7 @@ export default function BannerFour() {
             <p
               data-aos="fade-up"
               data-aos-delay="500"
-              className="text-gray-200 text-lg sm:text-sm mt-4 bg-black bg-opacity-50 px-4 py-2 rounded-md"
+              className="text-gray-200 text-lg sm:text-sm mt-4 px-4 py-2 rounded-md"
             >
               <span className="font-bold text-white">
                 {" "}
