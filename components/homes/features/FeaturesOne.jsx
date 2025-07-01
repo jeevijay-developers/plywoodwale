@@ -1,4 +1,4 @@
-import { features } from "@/data/features";
+import { features } from "@/data/features"; // Assume features are plywood-specific
 import Image from "next/image";
 import React from "react";
 
@@ -6,16 +6,20 @@ export default function FeaturesOne() {
   return (
     <section
       className="layout-pt-xl bg-gradient position-relative overflow-hidden"
-      style={{ background: "linear-gradient(135deg, #f0f4ff, #e8f5e9)" }}
+      style={{ background: "linear-gradient(135deg, #fff8f2, #f1f5f9)" }}
     >
       <div className="container position-relative z-1">
         <div className="row justify-content-center mb-40">
           <div className="col-auto text-center">
             <h2 data-aos="fade-up" className="text-36 fw-700 text-dark">
-              Why Choose Ummed Club Kota?
+              Why Choose PlywoodWale?
             </h2>
-            <p className="text-16 text-gray mt-10" data-aos="fade-up" data-aos-delay="100">
-              Discover our exclusive facilities and premium features
+            <p
+              className="text-16 text-gray mt-10"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              India's trusted source for premium plywood & furniture materials
             </p>
           </div>
         </div>
@@ -35,7 +39,12 @@ export default function FeaturesOne() {
                 <div>
                   <div className="icon-wrapper mx-auto mb-20">
                     <div className="icon-bubble bg-icon mx-auto d-flex align-items-center justify-content-center">
-                      <Image width={32} height={32} src={elm.iconSrc} alt="icon" />
+                      <Image
+                        width={32}
+                        height={32}
+                        src={elm.iconSrc}
+                        alt={elm.title}
+                      />
                     </div>
                   </div>
                   <h3 className="text-20 fw-600 mb-10 text-dark">{elm.title}</h3>
