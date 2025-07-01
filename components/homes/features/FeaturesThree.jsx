@@ -9,12 +9,47 @@ export default function FeaturesThree() {
         <div className="row justify-center text-center">
           <div className="col-auto">
             <h2 data-aos="fade-left" data-aos-delay="" className="text-30">
-              Why Choose Plywood Wale
+              Our Clients
             </h2>
+            <div
+              className="d-flex justify-content-center align-items-center flex-wrap mb-4"
+              style={{ gap: 24, marginTop: 24 }}
+            >
+              {[1, 2, 3, 4, 5].map((num) => (
+                <div
+                  key={num}
+                  style={{
+                    width: 110,
+                    height: 110,
+                    background: "#fff",
+                    borderRadius: 12,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                    border: "1px solid #e5e5e5",
+                    padding: 12,
+                  }}
+                >
+                  <Image
+                    src={`/img/ourClients/00${num}.jpg`}
+                    alt={`Client ${num}`}
+                    width={80}
+                    height={80}
+                    style={{
+                      objectFit: "contain",
+                      width: 100,
+                      height: 100,
+                      display: "block",
+                    }}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
-        <div
+        {/* <div
           data-aos="fade-up"
           data-aos-delay=""
           className="row md:x-gap-20 pt-40 sm:pt-20 mobile-css-slider -w-280"
@@ -33,7 +68,7 @@ export default function FeaturesThree() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
