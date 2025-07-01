@@ -12,25 +12,15 @@ const socialMediaLinks = [
 ];
 const currencies = [
   {
-    title: "Facility",
+    title: "Products",
     location: "/tour-list-6",
   },
-  {
-    title: "Events",
-    location: "/events",
-  },
+ 
   {
     title: "About",
     location: "/about",
   },
-  {
-    title: "Club Gallary",
-    location: "/clubGallary",
-  },
-  {
-    title: "Event Gallary",
-    location: "/eventGallary",
-  },
+  
   {
     title: "Contact Us",
     location: "/contact",

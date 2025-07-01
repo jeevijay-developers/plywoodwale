@@ -56,7 +56,7 @@ export default function Header1() {
               <Image
                 width="250"
                 height="50"
-                src="/img/pageHeader/logo.png"
+                src="/img/pageHeader/plywoodLogo3.png"
                 alt="logo icon"
                 priority
               />
