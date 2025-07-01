@@ -16,7 +16,7 @@ export const metadata = {
 export default async function page({ params }) {
   const {title, id} = params;
   const productId = Number(id);
-  console.log("Params:", params);
+  // console.log("Params:", params);
 
   return (
     <>
