@@ -29,7 +29,7 @@ export default function FooterOne() {
                   <div className="col-auto">
                     <div className="text-20 fw-500">
                       Contact Us{" "}
-                      <span className="text-accent-1">8233861088</span>
+                      <span className="text-accent-1">9529199992</span>
                     </div>
                   </div>
                 </div>
@@ -54,16 +54,14 @@ export default function FooterOne() {
 
                 <div className="y-gap-10 mt-20">
                   <a className="d-block" href="#">
-                    Address: Opposite J.K. Pavallion, Near C.V. Garden,
-                    Nayapura, Kota, Rajasthan
+                    Address: E-2, Furniture Industrial, NRC, DCM Road, Kota-
+                    324007
                   </a>
-                  <a className="d-block" href="#">
-                    <b> Contact Person 1</b> Mr. Hemraj Singh Chandrawat,
-                    Manager +91-8003352022
+                  <a className="d-block" href="tel:9529199992">
+                    <b>Phone:</b> 9529199992
                   </a>
-                  <a className="d-block" href="#">
-                    <b> Contact Person 2</b> Mr. Vijay Kumar Pandit, Accountat.
-                    +91-8233861088
+                  <a className="d-block" href="mailto:Sales@plywoodwale.com">
+                    <b>Email:</b> Sales@plywoodwale.com
                   </a>
                 </div>
               </div>
