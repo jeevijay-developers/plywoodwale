@@ -40,7 +40,7 @@ export default function page() {
         {/* <TourSlderOne /> */}
         {/* <TestimonialOne /> */}
         <BannerOne />
-        <Features9 />
+        {/* <Features9 /> */}
         <BannerFour />
         <FeaturesThree />
 
