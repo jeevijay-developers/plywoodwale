@@ -53,16 +53,10 @@ export default function FooterOne() {
                 <h4 className="text-20 fw-500">Contact</h4>
 
                 <div className="y-gap-10 mt-20">
-                  <a className="d-block" href="#">
-                    Address: E-2, Furniture Industrial, NRC, DCM Road, Kota-
-                    324007
-                  </a>
-                  <a className="d-block" href="tel:9529199992">
-                    <b>Phone:</b> 9529199992
-                  </a>
-                  <a className="d-block" href="mailto:Sales@plywoodwale.com">
-                    <b>Email:</b> Sales@plywoodwale.com
-                  </a>
+                  Address: E-2, Furniture Industrial, NRC, DCM Road, Kota-
+                  324007<br />
+                  <b>Phone:</b> 9529199992<br />
+                  <b>Email:</b> Sales@plywoodwale.com
                 </div>
               </div>
 
