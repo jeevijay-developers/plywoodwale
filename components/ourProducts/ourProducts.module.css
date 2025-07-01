@@ -1,0 +1,22 @@
+.productCard {
+  border-radius: 12px;
+  border: 1px solid #e5e5e5;
+  transition: box-shadow 0.2s;
+  background: #fff;
+}
+
+.productCard:hover {
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+
+.productImage {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background: #f8f9fa;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}

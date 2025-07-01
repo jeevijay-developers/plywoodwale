@@ -13,7 +13,7 @@ const socialMediaLinks = [
 const currencies = [
   {
     title: "Products",
-    location: "/tour-list-6",
+    location: "/our-products",
   },
  
   {
