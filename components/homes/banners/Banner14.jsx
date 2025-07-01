@@ -28,7 +28,7 @@ export default function Banner14() {
                 data-aos-delay=""
                 className="text-70 lg:text-50 md:text-40 sm:text-24 text-white"
               >
-                Keep things flexible
+                Trusted Plywood Supplier
               </h2>
 
               <p

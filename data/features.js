@@ -1,29 +1,30 @@
 export const features = [
   {
     id: 1,
-    iconSrc: "/img/icons/1/ticket.svg",
-    title: "A Legacy Since 1898",
-    text: "Established in 1898 and named after Sir Robert Crosthwaite, Shree Ummed Club Kota is one of the first 18 clubs founded before the nineteenth century. Experience history in the heart of Kota city.",
+    iconSrc: "/img/icons/1/tree.png",
+    title: "Premium Quality Materials",
+    text: "We source the finest timber to manufacture high-grade plywood, ensuring superior strength, durability, and long-lasting performance for every application.",
   },
   {
     id: 2,
-    iconSrc: "/img/icons/1/hot-air-balloon.svg",
-    title: "Historic Grandeur Awaits",
-    text: "Spanning nearly 5 acres, Shree Ummed Club Kota boasts a majestic historic building and a library with rare seventeenth-century books. Discover a legacy that stands the test of time.",
+    iconSrc: "/img/icons/1/recycle.png",
+    title: "Eco-Friendly Manufacturing",
+    text: "Our plywood products are crafted using sustainable practices, low-emission adhesives, and certified wood sources to protect the environment and your health.",
   },
   {
     id: 3,
-    iconSrc: "/img/icons/1/diamond.svg",
-    title: "Sports and Heritage Combined",
-    text: "Enjoy a state-of-the-art synthetic tennis court and a billiard room with a unique fixed grouted legs table, showcasing exquisite heritage-style woodwork. Experience the best of both worlds.",
+    iconSrc: "/img/icons/1/layers.png",
+    title: "Advanced Bonding Technology",
+    text: "Using state-of-the-art bonding processes, our plywood resists warping, delamination, and moisture damage, making it ideal for furniture, construction, and interior design.",
   },
   {
     id: 4,
-    iconSrc: "/img/icons/1/medal.svg",
-    title: "Dive into History and Luxury",
-    text: "Located in the heart of Kota city, Shree Ummed Club blends historical elegance with modern amenities. From a historic library to top-notch sports facilities, it’s a destination like no other.",
+    iconSrc: "/img/icons/1/certificate.png",
+    title: "Tested and Certified",
+    text: "Every batch of plywood undergoes rigorous quality testing and meets international standards to guarantee unmatched performance and customer satisfaction.",
   },
 ];
+
 export const featuresFour = [
   {
     id: 1,

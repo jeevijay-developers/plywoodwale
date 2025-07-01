@@ -7,7 +7,7 @@ export default function BannerFour() {
       {/* Background Image */}
       <div className="sectionBg relative">
         <Image
-          src="/img/features/1/a.webp"
+          src="/img/plywoodWale/TrustedPlywoodSupplier.jpg"
           width={1920}
           height={700}
           alt="image"
@@ -26,15 +26,20 @@ export default function BannerFour() {
               data-aos-delay="300"
               className="text-6xl md:text-4xl sm:text-2xl text-yellow-400 font-extrabold tracking-wide"
             >
-              Keep Things Flexible
+              Trusted Plywood Supplier
             </h2>
             <p
               data-aos="fade-up"
               data-aos-delay="500"
               className="text-gray-200 text-lg sm:text-sm mt-4 bg-black bg-opacity-50 px-4 py-2 rounded-md"
             >
-               <span className="font-bold text-white"> Use Reserve Now & Pay Later 
-              to secure the activities you don't want to miss without being locked in.</span>
+              <span className="font-bold text-white">
+                {" "}
+                We deliver premium-grade plywood engineered for strength,
+                durability, and sustainability. From construction to custom
+                interiors, trust us for quality products, competitive pricing,
+                and dependable service.
+              </span>
             </p>
           </div>
         </div>
