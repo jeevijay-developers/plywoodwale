@@ -79,8 +79,8 @@ export default function FeaturesOne() {
                 <div className="mb-3 d-flex justify-content-center align-items-center">
                   {feature.icon}
                 </div>
-                <h5 className="fw-bold mb-2">{feature.title}</h5>
-                <p className="text-gray mb-0">{feature.text}</p>
+                <h5 className="fw-bold mb-2" style={{ color: "#000" }}>{feature.title}</h5>
+                <p style={{ color: "#6c757d" }} className="mb-0">{feature.text}</p>
               </div>
             </div>
           ))}
