@@ -55,11 +55,16 @@ export default function Hero({ title }) {
             <div className="col-12">
               <div className="pageHeader__content">
                 <h1 className="pageHeader__title">
-                  {title}
+                  {decodeURIComponent(title)}
                 </h1>
 
                 <p className="pageHeader__text">
-                  Discover a wide range of premium plywood, laminates, veneers, doors, furniture, and more. Our products are crafted for durability, style, and versatility—perfect for residential, commercial, and creative projects. Explore quality materials designed to meet every need in construction, interiors, and design.
+                  Discover a wide range of premium plywood, laminates, veneers,
+                  doors, furniture, and more. Our products are crafted for
+                  durability, style, and versatility—perfect for residential,
+                  commercial, and creative projects. Explore quality materials
+                  designed to meet every need in construction, interiors, and
+                  design.
                 </p>
 
                 {/* <div className="pageHeader__search">
