@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import { products } from "@/data/PlywoodData/productData";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./ourProducts.module.css";
 import { useRouter } from "next/navigation";
 

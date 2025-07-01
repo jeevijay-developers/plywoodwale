@@ -7,29 +7,24 @@ export default function Information() {
         <div className="row y-gap-20 justify-between">
           <div className="col-lg-6">
             <h2 className="text-30 fw-700">
-              Shree Ummed Club Kota: A Legacy of Heritage and Elegance
+              About Our Plywood Business: Quality & Trust Since Inception
             </h2>
           </div>
 
           <div className="col-lg-5">
             <p>
-              Established in 1898 and named after Sir Robert Crosthwaite, Shree
-              Ummed Club Kota is one of the first 18 clubs founded before the
-              nineteenth century. Nestled in the heart of Kota city, the club
-              spans nearly 5 acres, featuring a grandeur historic building and a
-              historic library with a rare collection of seventeenth-century
-              books. It stands as a symbol of rich heritage and tradition,
-              preserving the charm of a bygone era.
+              With decades of experience, we are a leading supplier of premium
+              plywood and wood products, serving furniture makers, architects, and
+              builders across the region. Our commitment to quality ensures every
+              sheet meets the highest standards for strength, finish, and
+              sustainability.
               <br />
               <br />
-              Blending history with modern amenities, the club offers a
-              state-of-the-art synthetic tennis court and a billiard room with a
-              unique fixed grouted legs table adorned with exquisite
-              heritage-style woodwork. Shree Ummed Club Kota continues to be a
-              prestigious landmark, celebrating a legacy of excellence while
-              catering to contemporary leisure and community needs.
+              From innovative manufacturing processes to personalized customer
+              service, we strive to deliver solutions that inspire creativity and
+              reliability. Choose us for your next project and experience the
+              difference that true craftsmanship and dedication can make.
             </p>
-
             {/* <button className="button -md -dark-1 bg-accent-1 text-white mt-30">
               Learn More
             </button> */}
