@@ -12,7 +12,7 @@ import Team from "@/components/pages/about/Team";
 import React from "react";
 
 export const metadata = {
-  title: "Ummed club kota",
+  title: "About Us || Plywoodwale",
   description: "",
 };
 
