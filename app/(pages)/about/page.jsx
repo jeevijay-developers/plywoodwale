@@ -8,6 +8,7 @@ import Header1 from "@/components/layout/header/Header1";
 import Banner from "@/components/pages/about/Banner";
 import Hero from "@/components/pages/about/Hero";
 import Information from "@/components/pages/about/Information";
+import MissionVision from "@/components/pages/about/MissionVision";
 import Team from "@/components/pages/about/Team";
 import React from "react";
 
@@ -23,6 +24,7 @@ export default function page() {
         <Header1 />
         <Hero />
         <Information />
+        <MissionVision />
         {/* <Banner /> */}
         <FeaturesOne />
         {/* <div className="mt-60">
