@@ -25,6 +25,10 @@ const currencies = [
     title: "Contact Us",
     location: "/contact",
   },
+  {
+    title: "Query Form",
+    location: "/query-form",
+  },
 ];
 export default function MobileMenu({ mobileMenuOpen, setMobileMenuOpen }) {
   const [activeSub, setActiveSub] = useState("");
