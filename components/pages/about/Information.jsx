@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Information() {
   return (
-    <section className="layout-pt-lg">
+    <section className="layout-pt-lg layout-pb-lg">
       <div className="container">
         <div className="row y-gap-20 justify-between">
           <div className="col-lg-6">

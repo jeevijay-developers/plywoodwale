@@ -76,12 +76,12 @@ export default function Header1() {
               <i className="icon-search text-18"></i>
             </button>
 
-            <button
+            {/* <button
               onClick={() => pageNavigate("/login")}
               className="d-flex ml-20"
             >
               <i className="icon-person text-18"></i>
-            </button>
+            </button> */}
           </div>
 
           <div className="header__right">
